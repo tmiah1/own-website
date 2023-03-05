@@ -1,0 +1,28 @@
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__links {
+    text-decoration: underline;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo {
+    justify-content: flex-end;
+    margin-right: 0.75rem;
+    width: 2.5rem;
+}
+
+
