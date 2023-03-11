@@ -5,11 +5,35 @@
     box-sizing: border-box;
 }
 
+/* NAVIGATION BAR */
+
+#landing {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__link--primary {
+    background-color: #6030b1;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+
 .personal__logo {
     max-width: 100%;
     height: auto;
     margin-right: 0.75rem;
     width: 2.5rem;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
 }
 
 
