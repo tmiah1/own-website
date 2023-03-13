@@ -8,7 +8,7 @@
 /* NAVIGATION BAR */
 
 #landing {
-    min-height: 100vh;
+    min-height: 28vh;
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +36,22 @@ li {
     list-style-type: none;
     padding-left: 16px;
     justify-content: space-between;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple {
+    color: #6030b1;
 }
 
 
