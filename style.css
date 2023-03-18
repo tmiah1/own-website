@@ -46,7 +46,6 @@ li {
 /* FIRST PAGE */
 
 .first__page {
-    background-color: #6030b1;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -69,12 +68,29 @@ li {
 }
 
 .purple {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #6030b1;
     transition: all 300ms ease;
 }
 
 .logo__img {
     padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SECOND */
+
+#second {
+    
+}
+
+.span__title1 {
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
