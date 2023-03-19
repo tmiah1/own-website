@@ -33,11 +33,14 @@ body {
 }
 
 ul {
+    color: black;
+    list-style-type: none;
     display: flex;
     justify-content: flex-end;
 }
 
 li {
+    color: black;
     list-style-type: none;
     padding-left: 16px;
     justify-content: space-between;
@@ -52,6 +55,7 @@ li {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
+    justify-content: center;
 }
 
 .title {
@@ -68,7 +72,6 @@ li {
 }
 
 .purple {
-    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,13 +89,33 @@ li {
 /* SECOND */
 
 #second {
-    
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.second__page {
+    padding: 80px 0;
 }
 
 .span__title1 {
     font-size: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.span__title2 {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span__title3 {
+    margin-top: 1rem;
+    font-size: 20px;
+    display: flex;
     justify-content: center;
 }
 
