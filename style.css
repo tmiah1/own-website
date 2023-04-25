@@ -64,6 +64,7 @@ li {
 }
 
 .p1 {
+    padding-top: 10px;
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
@@ -82,7 +83,7 @@ li {
     padding-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 /* SECOND */
@@ -98,14 +99,19 @@ li {
 }
 
 .span__title1 {
-    font-size: 30px;
+    font-size: ;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.h5__subtitle {
+    font-size: 48px;
+}
+
 .span__title2 {
-    font-size: 50px;
+    padding-top: 8px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,9 +119,13 @@ li {
 
 .span__title3 {
     margin-top: 1rem;
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
+}
+
+.medium__img {
+    flex-direction: column;
 }
 
 .title__container {
